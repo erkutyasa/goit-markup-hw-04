@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Odev 3</title>
+    <title>Odev 4</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
@@ -38,53 +38,75 @@
           </ul>
         </nav>
 
-        <address class="address">
-          <ul class="address-link">
+        <address class="address-container">
+          <ul class="address-ul-link">
             <li class="list">
-              <a class="etiket" href="mailto:info@devstudio.com"
+              <a class="address" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li class="list">
-              <a class="etiket" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              <a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
       </div>
     </header>
     <main>
+      <!--İLK KISIM-->
       <section class="hero">
         <div class="container first-section-container">
           <h1 class="hero-header">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
+      <!--İKİNCİ KISIM-->
       <section class="second-section">
-        <div class="container second-section-container">
-          <h2 class="visually-hidden section-2-title">Advantages</h2>
+        <div class="container">
+          <h2 class="section-2-title">Advantages</h2>
           <ul class="section-ul">
-            <li class="list section-second-list">
+            <li class="section-2-list">
+              <div class="second-section-svg-container">
+                <svg class="second-section-svg" width="64" heigth="64">
+                  <use href="./images/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
               <h3 class="subtitle">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="list section-second-list">
+            <li class="section-2-list">
+              <div class="second-section-svg-container">
+                <svg class="second-section-svg" width="64" heigth="64" >
+                  <use href="./images/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
               <h3 class="subtitle">Punctuality</h3>
               <p class="text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="list section-second-list">
+            <li class="section-2-list">
+              <div class="second-section-svg-container">
+                <svg class="second-section-svg" width="64" heigth="64">
+                  <use href="./images/icons.svg#icon-diagram-1"></use>
+                </svg>
+              </div>
               <h3 class="subtitle">Diligence</h3>
               <p class="text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="list section-second-list">
+            <li class="section-2-list"> 
+              <div class="second-section-svg-container">
+                <svg class="second-section-svg" width="64" heigth="64">
+                  <use href="./images/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
               <h3 class="subtitle">Technologies</h3>
               <p class="text">
                 Design practice focused on digital experiences. We bring forth a
@@ -94,41 +116,193 @@
           </ul>
         </div>
       </section>
+      <!--ÜÇÜNCÜ KISIM-->
       <section class="our-team">
         <div class="container">
           <h2 class="section-header">Our Team</h2>
           <ul class="section-ul">
-            <li class="list section-third-list">
+            <li class="section-third-li">
               <img src="./images/img1.jpg" width="264" alt="Image1" />
               <div class="card">
                 <h3 class="subtitle">Mark Guerrero</h3>
                 <p class="text">Product Designer</p>
+                <ul class="social-media-button-ul">
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2">
+
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="list section-third-list">
+            <li class="section-third-li">
               <img src="./images/img2.jpg" width="264" alt="image2" />
               <div class="card">
                 <h3 class="subtitle">Tom Ford</h3>
                 <p class="text">Frontend Developer</p>
+                <ul class="social-media-button-ul">
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2">
+
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1" >
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="list section-third-list">
+            <li class="section-third-li">
               <img src="./images/img3.jpg" width="264" alt="image3" />
               <div class="card">
                 <h3 class="subtitle">Camila Garcia</h3>
                 <p class="text">Marketing</p>
+                <ul class="social-media-button-ul">
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2">
+
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1" >
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="list section-third-list">
+            <li class="section-third-li">
               <img src="./images/img4.jpg" width="264" alt="image4" />
               <div class="card">
                 <h3 class="subtitle">Daniel Wilson</h3>
                 <p class="text">UI Designer</p>
+                <ul class="social-media-button-ul">
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram-2">
+
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter-1" >
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-button-li">
+                    <a class="social-media-button" href="#">
+                      <svg class="social-svg-button" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin-1">
+                          
+                        </use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
         </div>
       </section>
+      <!--DÖRDÜNCÜ KISIM-->
       <section class="fourth-section">
         <div class="container">
           <h2 class="section-header">Our Portfolio</h2>
